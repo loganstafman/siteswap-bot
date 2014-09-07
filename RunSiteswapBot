@@ -1,0 +1,4 @@
+#!/bin/bash
+export DISPLAY=:0
+cd /home/logan/Dropbox/TM/juggling
+./siteswapbot.py > /home/logan/bot.log 2>&1
