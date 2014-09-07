@@ -1,6 +1,9 @@
 To run this bot, you must do the following:
+
 Run this bot with ./RunSiteswapBot
+
 You will need to fix the usernames/passwords and client keys in imgur.py and siteswapbot.py
+
 You will need to set up a database; first touch data.db, then run dbsetup.py
 
 #Make sure the following are installed
@@ -20,3 +23,8 @@ You'll need a virtual frame buffer
 sudo apt-get install xvfb
 
 change ./GenerateGif sswap to xvfb-run ./GenerateGif sswap
+
+#Juggling Lab
+The included version of JugglingLab is a hacked version intended only to create a gif of a siteswap.  See GenerateGif for usage.
+
+GenerateGif's usage is as follows: ./GenerateGif {siteswap}
