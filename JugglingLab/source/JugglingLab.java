@@ -14,6 +14,7 @@ public class JugglingLab {
 		PatternWindow jaw = null;
 		try {
 			jaw = new PatternWindow(pat.getTitle(), pat, new AnimatorPrefs());
+			Thread.sleep(100);
 			jaw.view.doMenuCommand(3);//the command for make gif...edited to remove some stuff
 		} catch(Exception e) {
 			System.out.println(e);
