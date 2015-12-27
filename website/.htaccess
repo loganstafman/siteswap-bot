@@ -1,0 +1,7 @@
+Options -MultiViews
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteBase /
+RewriteRule ^(.*)$ /page.php?ss=$1
